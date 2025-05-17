@@ -1,0 +1,28 @@
+{
+  "name": "weather-app",
+  "version": "1.0.0",
+  "description": "Weather app for Pawa IT Solution Software Engineer Assessment",
+  "main": "index.js",
+  "scripts": {
+    "test": "cd backend && php artisan test && cd .. && cd frontend && npm run build",
+    "start": "cd backend && php artisan serve",
+    "client": "cd frontend && npm run dev",
+    "dev": "concurrently \"npm run start\" \"npm run client\""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MichaelOnyoin/weather-app.git"
+  },
+  "keywords": [
+    "none"
+  ],
+  "author": "Michael Onyoin",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/MichaelOnyoin/weather-app/issues"
+  },
+  "homepage": "https://github.com/MichaelOnyoin/weather-app#readme",
+  "dependencies": {
+    "concurrently": "^9.1.2"
+  }
+}
