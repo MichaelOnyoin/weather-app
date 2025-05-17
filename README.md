@@ -3,7 +3,25 @@
 
 ## Frontend 
 <p>The frontend is built using the NextJS Framework with typescript </p>
+<img src="Screenshot 2025-05-17 233309.png" alt="Weather App screenshot" style="height:500px; width:700px;"/>
+<br>
+<p>Running the frontend</p>
+```bash
+npm run dev
+# or
+yarn dev
+# or
+pnpm dev
+# or
+bun dev
+```
 
 
 ## Backend 
 <p>Backend is built using laravel php to produce the API endpoints</p>
+<p>Running the backend</p>
+```bash
+cd backend &&
+composer i
+php artisan serve
+```
