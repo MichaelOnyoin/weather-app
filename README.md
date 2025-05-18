@@ -20,7 +20,7 @@ bun dev
 ```
 Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 Search [weather-frontend](https://github.com/MichaelOnyoin/weather-frontend) with your browser to check the github source code for the web NextJS frontend.
-<p><a href="https://weather-frontend-lime-rho.vercel.app/" >weather-frontend</a></p>
+<p>Link to production ready web app project here: <a href="https://weather-frontend-lime-rho.vercel.app/">weather-frontend</a></p>
 
 ## Backend 
 <p>Backend is built using laravel php to produce the API endpoints</p>
