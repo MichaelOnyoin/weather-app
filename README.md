@@ -35,4 +35,6 @@ php artisan serve
 ```
 Open [http://localhost:8000](http://localhost:8000) with your browser to see the resulting the api interface.<br>
 Search [http://localhost:8000](http://localhost:8000/api/weather?city=Nairobi&units=metric) with your browser to see the api endpoints for Nairobi city.<br>
-Search [http://localhost:8000](https://github.com/MichaelOnyoin/weather-backend) with your browser to see the github source for the laravel backend.
+Search [http://localhost:8000](https://github.com/MichaelOnyoin/weather-backend) with your browser to see the github source for the laravel backend.<br>
+Search [laravel-backend](https://weather-backend-master-bkxef2.laravel.cloud/api/weather?city=Kampala&units=metric) to see the production ready laravel backend
+
