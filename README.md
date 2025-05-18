@@ -18,7 +18,8 @@ pnpm dev
 # or
 bun dev
 ```
-
+Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Search [weather-frontend](https://github.com/MichaelOnyoin/weather-frontend) with your browser to check the github source code for the web NextJS frontend.
 
 ## Backend 
 <p>Backend is built using laravel php to produce the API endpoints</p>
@@ -31,3 +32,6 @@ composer install
 #then
 php artisan serve
 ```
+Open [http://localhost:8000](http://localhost:8000) with your browser to see the resulting the api interface.
+Search [http://localhost:3000](http://localhost:8000/api/weather?city=Nairobi&units=metric) with your browser to see the api endpoints for Nairobi city.
+Search [http://localhost:3000](https://github.com/MichaelOnyoin/weather-backend) with your browser to see the github source for the laravel backend.
